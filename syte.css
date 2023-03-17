@@ -26,6 +26,7 @@ body {
     color: #262626;
     padding-bottom: 3rem;
     background-image: url("./images/107412-beton-stena-dizajn-monoxromnyj_rejim-bumaga-1920x1080\ \(1\).jpg");    
+    background-size: cover;
 }
 
 img {
