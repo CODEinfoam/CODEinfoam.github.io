@@ -17,3 +17,17 @@ https://codepen.io/GeorgePark/full/VXrwOP/
 // 	});
 // });
 
+const popup = document.getElementById("popup");
+const bgcolor = document.getElementById("bgcolor");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+    bgcolor.classList.add("bg")
+}
+
+const deniedpopup = document.getElementById("deniedpopup");
+
+function deniedPopup(){
+    deniedpopup.classList.add("open-popup");
+    bgcolor.classList.add("bg")
+}
