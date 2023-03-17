@@ -25,7 +25,7 @@ body {
     min-height: 100vh;
     color: #262626;
     padding-bottom: 3rem;
-    background-image: url("./images/107412-beton-stena-dizajn-monoxromnyj_rejim-bumaga-1920x1080\ \(1\).jpg");
+    background-image: url("./images/107412-beton-stena-dizajn-monoxromnyj_rejim-bumaga-1920x1080\ \(1\).jpg");    
 }
 
 img {
@@ -217,7 +217,8 @@ button:active{
     margin: 1rem;
     color: #fff;
     cursor: pointer;
-    box-shadow: 5px 5px 20px #282828, -5px -15px 30px #4f4d4d;
+    box-shadow: 5px 5px 40px #282828e5, -5px -15px 60px #4f4d4da3;
+    border-radius: 10px 10px 30px 30px;
 }
 
 .gallery-item:hover .gallery-item-info,
@@ -230,6 +231,7 @@ button:active{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 30px 30px;
 }
 
 .gallery-item-info {
@@ -263,6 +265,7 @@ button:active{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px 10px 30px 30px;
 }
 
 /* Loader */
