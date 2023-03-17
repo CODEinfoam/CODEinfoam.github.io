@@ -15,9 +15,24 @@
     <div class="container">
         <div class="info-section"><p>Are you from Armenia?</p></div>
         <div class="btn-section">
-            <button class="btn btn-no"><a href="./faild.html">NO</a></button>
-            <button class="btn btn-yes"><a href="https://iplogger.com/23xA54">YES</a></button>
+            <button type="submit" class="btn btn-no" onclick="deniedPopup()">NO</button>
+            <button type="submit" class="btn btn-yes" onclick="openPopup()">YES</button>
         </div>
     </div>
+    <div class="popup-container">
+        <div class="popup" id="popup">
+            <h2><b>ՈՒշադրություն!</b></h2>
+            <p>Ստուգելու համար թե արդյոք մուտք գործող անձը գտնվում է ՀՀ-ի տարծքում, մենք օգտագործում ենք <b>IPloger</b> ձեր գտնվելու վայրը`<i>ՔԱՂԱՔԻ կամ ՄԱՐԶԻ</i> ճշտությամբ տեսնելու համար։ էջ մուտք գործելու համար սեղմեք <b>OK</b> այնուհետև <b>Agree & Continue</b> և սեխմել <b>թույլատրել կոճակը։</b></p>
+            <button><a href="https://iplogger.com/23xA54">OK</a></button>
+        </div>
+
+        <div class="popup" id="deniedpopup">
+            <h2><b>Warnning!</b></h2>
+            <p style="font-size: 24px;">This website made onle for Armenina people!!!</p>
+            <button><a href="./index.html">OK</a></button>
+        </div>
+    </div>
+    <div id="bgcolor"></div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
